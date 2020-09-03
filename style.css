@@ -1,0 +1,286 @@
+*{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif; list-style: none; text-decoration:none; color:white;}
+
+
+.wrapper{background-color:black;}
+
+.container{max-width:1150px;
+			  margin:0px auto;
+}
+
+.header__body{background-color:black;
+				  display:flex;
+				  flex-wrap: nowrap;
+				  margin-left:2%;
+}
+
+.header__logo{max-width: 169px;
+				  height: 43px;
+				  font-size: 24px;
+				  line-height: 24px;
+				  color: #ffffff;
+				  font-weight: bold;
+				  text-transform: uppercase;
+				  margin-top:50px;
+				  margin-left:4%;
+				  cursor: pointer;
+}
+
+.icon{display:none;}
+
+.header{color:white;}
+
+.header__nav{margin-left:40%;
+			    height: 43px;
+             font-size: 16px;
+             line-height: 24px;
+				 color: #ffffff;
+				 font-weight: 700;
+				 margin-top:50px;
+				 width:100%;
+}
+
+.header__nav a{margin-left:4%;
+					margin-bottom:20px;					
+}
+
+.header__nav a:hover{border-bottom:3px solid #FCAC45;
+
+}
+
+.welcome__title{text-transform: uppercase;}
+
+.welcome__body{display:flex;
+					flex-direction: column;
+					align-items: center;
+					margin-top:220px;
+					height:400px;
+}
+
+.welcome__title{font-size: 44px;
+letter-spacing: -2px;
+line-height: 24px;
+color: #999999;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+}
+
+.welcome__item{color:#FCAC45;
+					font-weight: bold;
+}
+
+.welcome__text{margin-top:20px;
+					font-size: 18px;
+					letter-spacing: -1px;
+					line-height: 24px;
+					color: #ffffff;
+					font-weight: 400;
+					font-family: "Open Sans";
+					text-align: center;
+}
+
+.welcome__attribute{font-weight: bold;}
+
+.about{background-color:white;
+       display:flex;
+}
+
+.about__body{display:flex;
+				 flex-direction: row-reverse;
+				 margin-top:100px;
+}
+
+.about__title{text-transform: uppercase;
+				  font-size: 30px;
+				  letter-spacing: -1px;
+				  line-height: 37px;
+				  color: #222222;
+				  font-weight: 400;
+				  font-family: "Open Sans";
+				  text-align: center;
+				  border-bottom:5px solid #FCAC45;
+				  width:350px;
+				  margin-top:30px;
+}
+
+.about__item{font-weight: bold;
+				 color:black;
+}
+
+.about__text{max-width:350px;
+				 color:black;
+				 font-weight: 400;
+				 font-family: "Open Sans";
+				 font-size:18px;
+				 text-align: center;
+				 margin-top:10px;
+}
+
+.about__skills{color:black;
+					  max-width:350px;
+				 	  color:black;
+				 	  font-weight: 400;
+				 	  font-family: "Open Sans";
+					  font-size:18px;
+					  text-align: center;
+					  margin-top:20px;
+					  max-height:100px;}
+
+.about__skills a{color:#FCAC45;					  
+}
+
+.about__row{margin-left:150px;}
+
+.team{background-color:black;
+		margin-top:70px;
+		height:550px;
+	}
+
+.team__title{color:white;
+				 text-align:center;
+				 padding-top:70px;
+				 font-size:40px;
+}
+
+.team__line{width:200px;
+				background-color:#FCAC45;
+				height:5px;
+}
+
+.team__header{display:flex;
+				  justify-content: center;
+				  flex-direction: column;
+				  align-items: center;
+}
+
+.user{width:100px;
+		border-radius:50px;
+		margin-left:24%;
+		border:3px solid #6E7F80;
+}
+
+.team__row{display: flex;
+			  margin-left:-50px;
+}
+
+.team__column{margin-top:100px;
+				  margin-left:5%;
+				  width:230px;
+}
+
+.team__name{margin-top:20px;
+				font-size:25px;			
+}
+
+.team__text{width:250px;
+			   text-align:center;
+			   margin-top:10px;
+			   margin-left:-10px;
+}
+
+@media (max-width:1235px) {
+    .header__nav{margin-left:35%;}
+   }
+
+    .team__name{margin-left:15%;}
+
+@media (max-width:1170px){
+    .header__nav{margin-left:27%;}
+    
+    .team__row{display:block;
+    				margin-left:37%;
+    }
+
+    .team{height:1460px;}
+
+    .user{margin-left:60px;}
+}
+
+.krol{margin-top:70px;
+		text-align: center;
+}
+
+@media (max-width:1050px){
+	.about__row{margin-left:50px;}
+
+	.team__row{margin-left:35%;}
+}
+
+@media (max-width:970px){
+	.about__body{flex-direction: column-reverse;
+		          margin-left:-10px;
+		          margin-top:50px;
+	}
+	.about__row{margin-left:85px;}
+
+	.team__row{margin-left:33%;}
+}
+
+@media (max-width:820px){
+	.team__row{margin-left:29%;}
+}
+
+@media (max-width:630px){
+	.team__row{margin-left:26%;}
+}
+
+@media (max-width:530px){
+	.welcome__item{line-height:60px;}
+	
+	.image{width:400px}
+	
+	.about__row{margin-left:25px;}
+	
+	.about__text{font-size:18px;
+                max-width:300px;
+                margin-left:25px;}
+   
+   .about__skills{font-size:15px;
+                 max-width:300px;
+                 margin-left:20px;}
+
+   .about__image{margin-left:5px;}
+
+   .welcome__title{margin-left:-1%;
+   					 max-width:430px;
+   					 font-size:40px;
+   }
+
+   .welcome__text{margin-left:-1%;}
+
+   .team__row{margin-left:21%;}
+}
+
+@media (max-width:405px){
+	.image{width:300px}
+	.about__image{margin-left:35px;}
+	.about__row{margin-left:10px;}
+	.welcome__text{font-size:15px;}
+	.welcome__title{font-size:35px;}
+	.team__row{margin-left:15%;}
+
+}
+
+@media (max-width:365px){	
+	.image{width:300px}
+	
+	.about__image{margin-left:12px;}
+	
+	.about__row{margin-left:10px;}
+	
+	.about__title{font-size:25px;
+					  width:300px;
+					  margin-left:5px;}
+	
+	.about__text{font-size:15px;
+					 margin-left:5px;
+	}
+
+	.welcome__title{font-size:33px;}
+
+	.welcome__text{font-size:14px;}
+
+	.about__skills{margin-left:5px;}
+
+	.team__row{margin-left:10%;}
+}
